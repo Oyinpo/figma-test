@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+.top-top {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to top,
+        white 0%, 
+        white 40%,
+        #e2f6fc 40%,
+        #e2f6fc 100%
+    );
+}
+nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.travling:hover{
+     text-decoration: underline;
+}
+
+.travling{
+    color: #42a7c3;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border: 100px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+}
+button:hover{
+    text-decoration: underline;
+}
+
+.top{
+    padding: 50px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-store{
+    margin-top: 10px;
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.top-layer{
+    background-image: url(circle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.vec-top {
+    border: 10px;
+    border-radius: 100px;
+}
+
+.Jakarta {
+    margin-right: 50px;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    border: 100px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.train {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 620px;
+}
+
+.orange-ball{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 860px;
+}
+.bajo {
+    width: 220px;
+    height: 200px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    position: absolute;
+    left: 460px;
+    bottom: 63px;
+
+}
+
+.flores {
+    width: 130px;
+    height: 150px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    top: 330px;
+}
+
+/* middle */
+.middle{
+    margin: 100px;
+    padding: 10px;
+}
+
+.middle-row {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:  rgba(240, 240, 240, 0.45);;
+}
+
+.Middle-pop{
+    margin-right: 100px;
+    padding: 30px;
+}
+.M1{
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.M2{
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.M3{
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.M4{
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+span{
+    color: #42A7C3;
+}
+/* Bottom */
+.bottom{
+    margin: 100px;
+    padding: 5px;
+    width: 80%;
+    background: linear-gradient(#E2F6FC);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./Rectangle\ 197.png);
+    background-image: url(./kisspng-world-map-globe-united-states-globe-5ad2b66d992db0\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.bottom-2{
+    display: flex;
+    flex-direction: column;
+}
+.B1{
+    margin: 30px;
+    padding: 5px;
+}
+
+.B2{
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px  rgba(40, 41, 61, 0.02), 0px 16px 24px rgba(96, 97, 112, 0.12);
+    background-color: white;
+    display: flex;
+}
+
+
+.B3{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+.B4{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+}
